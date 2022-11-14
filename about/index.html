@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Ayuda AxP</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>About - Ayuda AxP</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Ayuda AxP</a>
+                <a class="navbar-brand" href="..">Ayuda AxP</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,20 +33,20 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">pantallas <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="configuracion/" class="dropdown-item">Configuración</a>
+    <a href="../configuracion/" class="dropdown-item">Configuración</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="navitem">
-                                <a href="about/" class="nav-link">About</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">About</a>
                             </li>
                         </ul>
 
@@ -57,12 +57,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../configuracion/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="configuracion/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -84,20 +84,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#bienvenidos-a-axp" class="nav-link">Bienvenidos a AxP</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#multiple-opciones" class="nav-link">Multiple opciones</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#escritura" class="nav-link">Escritura</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#prerrequisitos" class="nav-link">Prerrequisitos</a>
+            <li class="nav-item" data-level="2"><a href="#acerca-de" class="nav-link">Acerca de</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -106,51 +93,9 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="bienvenidos-a-axp">Bienvenidos a AxP</h1>
-<p>AxP es un software de preguntas y respuestas. Actualmente soporta dos tipos de cuestionarios:</p>
-<ul>
-<li>Multiple opciones</li>
-<li>Escritura</li>
-</ul>
-<h2 id="multiple-opciones">Multiple opciones</h2>
-<p>El usuario deberá contestar una pregunta teniendo como opciones para la respuesta entre 4 opciones</p>
-<h2 id="escritura">Escritura</h2>
-<p>El usuario deberá contestar una pregunta sin opciones, debiendo escribir la respuesta correcta</p>
-<h1 id="prerrequisitos">Prerrequisitos</h1>
-<p>Para poder hacer uso de AxP deberá importar los siguientes archivos</p>
-<p><a href="Data/cuestionarios.odt">cuestionarios.ods</a></p>
-<p><a href="Data/cuestionarios_preguntas.odt">cuestionarios_preguntas.ods</a></p>
-<p>Una vez descargados deberan importarlos a su google drive. Estos dos archivos funcionan como base de datos para AxP. 
-El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios disponibles. Tiene 3 columanas:</p>
-<ul>
-<li><strong>nro:</strong> identifica de forma unica cada cuestionario. <strong>No deben repetirse</strong></li>
-<li><strong>titulo:</strong> Es el nombre del cuestionario</li>
-<li><strong>tipo:</strong> El tipo del cuestionario. Los valores soportados actualmente son <strong>W</strong> donde el usuario debar escribir la respuestas sin opciones y <strong>MC</strong> para los cuestionarios de opción múltiples.</li>
-</ul>
-<p><img alt="ejemplo cuestionarios" src="Img/ejemplo_cuestionario.png" /></p>
-<p>El archivo <em>cuestionarios_preguntas.ods</em> contiene las preguntas de los cuestionarios. Tiene 8 columans</p>
-<ul>
-<li><strong>nro: </strong> Este campo tiene el id del cuestionario. Si en el archivo  <em>cuestionarios.ods</em> cargamos un cuestionario cuyo id es 1. En este campo tenemos que cargar 1 si se quiere crear una pregunta para dicho cuestionario.</li>
-<li><strong>linea: </strong> es el numero de la pregunta </li>
-<li><strong>pregunta: </strong> la pregunta que queremos hacer. </li>
-<li><strong>respuesta: </strong> Aca se carga cual es la respuesta correcta. Ya sea que el cuestionarios es de tipo "W" o "MC" siempre se carga la cadena que representa la respuesta correcta. </li>
-<li><strong>opcion_1: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la primera opción. </li>
-<li><strong>opcion_2: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la segunda opción. </li>
-<li><strong>opcion_3: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la tercera opción. </li>
-<li><strong>opcion_4: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la cuarta opción.</li>
-</ul>
-<p><img alt="ejemplo cuestionario preguntas" src="Img/ejemplo_cuestionario_preguntas.png" /></p>
-<p><strong>NOTA</strong> : tener presente que para los cuestionario tipo "MC" el campo respuesta debería tener la cadena de algunos de los campos opcion_1, opcion_2, opcion_3 u opcion_4.</p>
-<p>Para importarlos pude arrastar desde el explorar de archivo a la pagina de google drive o subir archivo como se muestra en la siguiente imagen</p>
-<p><img alt="importar" src="Img/importar.png" /></p>
-<p>Una vez que ambos archivos estan subidos hay que compartirlos. Para esto hay que hacer click en</p>
-<p><img alt="compartir" src="Img/compartir.png" /></p>
-<p>Se abrirá una ventana donde le decimos como queremos compartir el archivo.</p>
-<p><img alt="forma de compartir" src="Img/Acceso%20general.png" /></p>
-<p>Seleccionamos la opción "Cualquier persona con el enlace" como se muestra en la imagen previa. Hacemos esto para los dos archivos.</p>
-<p>Una vez que finalizamos el proceso de publicación de los archivos es hora de configurar AxP. Para esto en la ventana principal hacemos click en el botón opciones.</p>
-<p><img alt="pantalla principal" src="Img/pantalla%20principal.jpg" /></p>
-<p><a href="configuracion/">Pantalla Configuración</a></p></div>
+<h2 id="acerca-de">Acerca de</h2>
+<p><strong>desarrollador</strong>: Busto Pedro</p>
+<p><strong>Correo</strong>: pclbusto@gmail.com</p></div>
             </div>
         </div>
 
@@ -159,11 +104,11 @@ El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios d
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -228,8 +173,3 @@ El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios d
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.3
-Build Date UTC : 2022-11-14 16:36:15.673043+00:00
--->
