@@ -4,10 +4,10 @@ nav:
     - Home: index.md
     - pantallas:
         - Principal: principal.md
-        - Indentificarse: 
+        - Perfil: 
             - Nuevo Perfil: nuevo_perfil.md
             - Seleccionar Perfil: seleccionar_perfil.md
-        - Configuración: configuracion.md
+        - Configuración: configuracion.md   
         - Cuestionarios: cuestionarios.md
         - Cuestionario: cuestionario.md
         - Estadisticas: estadisticas.md

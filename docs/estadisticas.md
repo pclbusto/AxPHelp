@@ -1,15 +1,10 @@
-#Identificarse
+#Estadisticas
 
 
 
-En la pantalla perfil 
+En la pantalla de estadísticas 
 
-![pantalla principal](Img/pantalla perfil.jpg)
+![pantalla identificarse](Img/pantalla estadisticas.jpg)
 
-Veremos 4 botones:
-
-* **[Identificarse]():** Accede a la pantalla que nos permite crear un nuevo perfil o seleccionar uno ya creado previamente. 
-* **Configuración:** Accede a la pantalla de configuración de esta app. 
-* **Ayuda:** Muestra esta ayuda.
-* **Salir:** Cierra la app.
+Veremos el resultado marcado con estrellas, los cuales van del 1 al 10. Ademas de esto una pequeña leyenda indicando cual es la nota obtenida y algún comentario que varia dependiendo de la nota. Debajo de esto vamos a ver una lista scrolleable que nos permite evaluar el resultado que se obtuvo en cada pregunta. Si se selecciona uno de los elementos de la lista en la siguiente sección veremos cual fue la respues que dimos y cual era la correcta. Por último hay un botón finalizar para volver a la pantalla de cuestionarios.
 

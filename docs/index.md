@@ -17,11 +17,13 @@ El usuario deberá contestar una pregunta sin opciones, debiendo escribir la res
 
 Para poder hacer uso de AxP deberá importar los siguientes archivos
 
-[cuestionarios.ods](Data/cuestionarios.odt)
+[cuestionarios](Data/cuestionarios.xlsx)
 
-[cuestionarios_preguntas.ods](Data/cuestionarios_preguntas.odt)
+[cuestionarios_preguntas](Data/cuestionarios_preguntas.xlsx)
 
 Una vez descargados deberan importarlos a su google drive. Estos dos archivos funcionan como base de datos para AxP. 
+
+##Cuestionarios
 El archivo *cuestionarios.ods* contiene un listado de los cuestionarios disponibles. Tiene 3 columanas:
 
 * **nro:** identifica de forma unica cada cuestionario. **No deben repetirse**
@@ -30,6 +32,7 @@ El archivo *cuestionarios.ods* contiene un listado de los cuestionarios disponib
 
 ![ejemplo cuestionarios](Img/ejemplo_cuestionario.png)
 
+##Cuestionario Preguntas
 El archivo *cuestionarios_preguntas.ods* contiene las preguntas de los cuestionarios. Tiene 8 columans
 
 * **nro: ** Este campo tiene el id del cuestionario. Si en el archivo  *cuestionarios.ods* cargamos un cuestionario cuyo id es 1. En este campo tenemos que cargar 1 si se quiere crear una pregunta para dicho cuestionario.

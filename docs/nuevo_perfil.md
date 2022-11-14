@@ -1,15 +1,9 @@
-#Identificarse
+#Nnuevo Perfil
 
 
 
-En la pantalla perfil 
+En la pantalla nuevo perfil 
 
-![pantalla principal](Img/pantalla perfil.jpg)
+![pantalla principal](Img/pantalla nuevo perfil.jpg)
 
-Veremos 4 botones:
-
-* **[Identificarse]():** Accede a la pantalla que nos permite crear un nuevo perfil o seleccionar uno ya creado previamente. 
-* **Configuración:** Accede a la pantalla de configuración de esta app. 
-* **Ayuda:** Muestra esta ayuda.
-* **Salir:** Cierra la app.
-
+Veremos un campo de texto para poder cargar el nuevo perfil. Abajo tenemos dos botones uno para volver a la pantalla de perfil y la otra para guardar el perfil y continuar a la ventana de [selección de cuestionarios](cuestionarios.md)
