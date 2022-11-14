@@ -1,1 +1,15 @@
-site_name: My Docs
+site_name: Ayuda AxP 
+
+nav:
+    - Home: index.md
+    - pantallas:
+        - Principal: principal.md
+        - Indentificarse: 
+            - Nuevo Perfil: nuevo_perfil.md
+            - Seleccionar Perfil: seleccionar_perfil.md
+        - Configuración: configuracion.md
+        - Cuestionarios: cuestionarios.md
+        - Cuestionario: cuestionario.md
+        - Estadisticas: estadisticas.md
+
+    - About: about.md
