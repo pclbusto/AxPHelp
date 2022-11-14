@@ -45,7 +45,7 @@
 </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Indentificarse</a>
+    <a href="#" class="dropdown-item">Perfil</a>
     <ul class="dropdown-menu">
             
 <li>
@@ -129,6 +129,14 @@
             
             <li class="nav-item" data-level="1"><a href="#prerrequisitos" class="nav-link">Prerrequisitos</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#cuestionarios" class="nav-link">Cuestionarios</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#cuestionario-preguntas" class="nav-link">Cuestionario Preguntas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -150,14 +158,16 @@
 <p>Para poder hacer uso de AxP deberá importar los siguientes archivos</p>
 <p><a href="Data/cuestionarios.odt">cuestionarios.ods</a></p>
 <p><a href="Data/cuestionarios_preguntas.odt">cuestionarios_preguntas.ods</a></p>
-<p>Una vez descargados deberan importarlos a su google drive. Estos dos archivos funcionan como base de datos para AxP. 
-El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios disponibles. Tiene 3 columanas:</p>
+<p>Una vez descargados deberan importarlos a su google drive. Estos dos archivos funcionan como base de datos para AxP. </p>
+<h2 id="cuestionarios">Cuestionarios</h2>
+<p>El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios disponibles. Tiene 3 columanas:</p>
 <ul>
 <li><strong>nro:</strong> identifica de forma unica cada cuestionario. <strong>No deben repetirse</strong></li>
 <li><strong>titulo:</strong> Es el nombre del cuestionario</li>
 <li><strong>tipo:</strong> El tipo del cuestionario. Los valores soportados actualmente son <strong>W</strong> donde el usuario debar escribir la respuestas sin opciones y <strong>MC</strong> para los cuestionarios de opción múltiples.</li>
 </ul>
 <p><img alt="ejemplo cuestionarios" src="Img/ejemplo_cuestionario.png" /></p>
+<h2 id="cuestionario-preguntas">Cuestionario Preguntas</h2>
 <p>El archivo <em>cuestionarios_preguntas.ods</em> contiene las preguntas de los cuestionarios. Tiene 8 columans</p>
 <ul>
 <li><strong>nro: </strong> Este campo tiene el id del cuestionario. Si en el archivo  <em>cuestionarios.ods</em> cargamos un cuestionario cuyo id es 1. En este campo tenemos que cargar 1 si se quiere crear una pregunta para dicho cuestionario.</li>
@@ -261,5 +271,5 @@ El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios d
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-11-14 17:07:45.658488+00:00
+Build Date UTC : 2022-11-14 19:33:00.788001+00:00
 -->
