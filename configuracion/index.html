@@ -41,7 +41,37 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
+    <a href="../principal/" class="dropdown-item">Principal</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Indentificarse</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../nuevo_perfil/" class="dropdown-item">Nuevo Perfil</a>
+</li>
+            
+<li>
+    <a href="../seleccionar_perfil/" class="dropdown-item">Seleccionar Perfil</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
     <a href="./" class="dropdown-item active">Configuración</a>
+</li>
+                                    
+<li>
+    <a href="../cuestionarios/" class="dropdown-item">Cuestionarios</a>
+</li>
+                                    
+<li>
+    <a href="../cuestionario/" class="dropdown-item">Cuestionario</a>
+</li>
+                                    
+<li>
+    <a href="../estadisticas/" class="dropdown-item">Estadisticas</a>
 </li>
                                 </ul>
                             </li>
@@ -57,12 +87,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
+                                <a rel="prev" href="../seleccionar_perfil/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../about/" class="nav-link">
+                                <a rel="next" href="../cuestionarios/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -94,39 +124,6 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="configuracion">Configuración</h1>
-<p>Para poder hacer uso de AxP deberá importar los siguientes archivos</p>
-<p><a href="Data/cuestionarios.odt">cuestionarios.ods</a></p>
-<p><a href="Data/cuestionarios_preguntas.odt">cuestionarios_preguntas.ods</a></p>
-<p>Una vez descargados deberan importarlos a su google drive. Estos dos archivos funcionan como base de datos para AxP. 
-El archivo <em>cuestionarios.ods</em> contiene un listado de los cuestionarios disponibles. Tiene 3 columanas:</p>
-<ul>
-<li><strong>nro:</strong> identifica de forma unica cada cuestionario. <strong>No deben repetirse</strong></li>
-<li><strong>titulo:</strong> Es el nombre del cuestionario</li>
-<li><strong>tipo:</strong> El tipo del cuestionario. Los valores soportados actualmente son <strong>W</strong> donde el usuario debar escribir la respuestas sin opciones y <strong>MC</strong> para los cuestionarios de opción múltiples.</li>
-</ul>
-<p><img alt="ejemplo cuestionarios" src="../Img/ejemplo_cuestionario.png" /></p>
-<p>El archivo <em>cuestionarios_preguntas.ods</em> contiene las preguntas de los cuestionarios. Tiene 8 columans</p>
-<ul>
-<li><strong>nro: </strong> Este campo tiene el id del cuestionario. Si en el archivo  <em>cuestionarios.ods</em> cargamos un cuestionario cuyo id es 1. En este campo tenemos que cargar 1 si se quiere crear una pregunta para dicho cuestionario.</li>
-<li><strong>linea: </strong> es el numero de la pregunta </li>
-<li><strong>pregunta: </strong> la pregunta que queremos hacer. </li>
-<li><strong>respuesta: </strong> Aca se carga cual es la respuesta correcta. Ya sea que el cuestionarios es de tipo "W" o "MC" siempre se carga la cadena que representa la respuesta correcta. </li>
-<li><strong>opcion_1: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la primera opción. </li>
-<li><strong>opcion_2: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la segunda opción. </li>
-<li><strong>opcion_3: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la tercera opción. </li>
-<li><strong>opcion_4: </strong> En el caso que el cuestionario sea de tipo "MC" se carga la cuarta opción.</li>
-</ul>
-<p><img alt="ejemplo cuestionario preguntas" src="../Img/ejemplo_cuestionario_preguntas.png" /></p>
-<p><strong>NOTA</strong> : tener presente que para los cuestionario tipo "MC" el campo respuesta debería tener la cadena de algunos de los campos opcion_1, opcion_2, opcion_3 u opcion_4.</p>
-<p>Para importarlos pude arrastar desde el explorar de archivo a la pagina de google drive o subir archivo como se muestra en la siguiente imagen</p>
-<p><img alt="importar" src="../Img/importar.png" /></p>
-<p>Una vez que ambos archivos estan subidos hay que compartirlos. Para esto hay que hacer click en</p>
-<p><img alt="compartir" src="../Img/compartir.png" /></p>
-<p>Se abrirá una ventana donde le decimos como queremos compartir el archivo.</p>
-<p><img alt="forma de compartir" src="../Img/Acceso%20general.png" /></p>
-<p>Seleccionamos la opción "Cualquier persona con el enlace" como se muestra en la imagen previa. Hacemos esto para los dos archivos.</p>
-<p>Una vez que finalizamos el proceso de publicación de los archivos es hora de configurar AxP. Para esto en la ventana principal hacemos click en el botón opciones.</p>
-<p><img alt="pantalla principal" src="../Img/pantalla%20principal.jpg" /></p>
 <p>En la pantalla de opciones </p>
 <p><img alt="pantalla opciones" src="../Img/pantalla%20opciones.jpg" /></p>
 <p>Veremos 4 campos:</p>
